@@ -19,8 +19,9 @@
       "@context/*": ["./src/context/*"],
       "@screens/*": ["./src/screens/*"],
       "@styles/*": ["./src/styles/*"],
-      "@lib/*": ["./src/lib/*"]
-    }
+      "@services/*": ["./src/services/*"]
+    },
+    "incremental": true
   },
   "exclude": ["node_modules", "postcss.config.js"],
   "include": ["next-env.d.ts", "**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"]
